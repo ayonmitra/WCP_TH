@@ -1,6 +1,6 @@
 package alex.classes;
 
-public abstract class Entity extends Object implements ayon.Entity{
+public abstract class Entity extends Object implements ayon.Being{
 	
 	protected double hp;
 	protected double attack;

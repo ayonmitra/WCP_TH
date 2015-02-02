@@ -1,6 +1,6 @@
 package ayon;
 
-public interface Entity {
+public interface Being {
 	
 	void name();
 	
