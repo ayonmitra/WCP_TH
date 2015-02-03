@@ -1,14 +1,18 @@
 package ayon;
 
-public abstract class Item{
+public abstract class Item implements Being{
 	
-	public int health;
-	public String name;
+	private String name;
 	
-	private Item() {
-		
+	public Item(String name) {
+		name(name);
+	}
+	
+	public void name(String name) {
+		this.name = name;
 	}
 	
 	public abstract boolean isDestroyed();
+	
 
 }
