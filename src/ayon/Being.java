@@ -2,6 +2,6 @@ package ayon;
 
 public interface Being {
 	
-	void name();
+	void name(String name);
 	
 }
