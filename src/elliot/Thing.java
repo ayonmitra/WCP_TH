@@ -1,5 +1,5 @@
 package elliot;
 
-public class Jeannie {
+public class Thing {
 
 }
